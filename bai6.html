@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Luyện tập cấu trúc điều kiện 01</title>
+</head>
+<body>
+<script>
+    let sales = parseInt(prompt('Nhập vào doanh số bán hàng:'));
+    let commission;
+
+    if (sales >= 200000000) {
+        commission = "10%";
+    } else if (100000000 <= sales < 200000000) {
+        commission = "7%";
+    } else {
+        commission = "3%";
+    }
+    alert("Hoa hồng nhận được: " + commission);
+</script>
+</body>
+</html>

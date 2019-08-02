@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Luyện tập cấu trúc điều kiện 01</title>
+</head>
+<body>
+<script>
+    let usedMinutes = parseInt(prompt("Số phút sử dụng:"));
+    let unitPrice;
+    let usecharge;
+
+    if (usedMinutes >= 500) {
+        unitPrice = 3000;
+    } else if (300 <= usedMinutes < 500) {
+        unitPrice = 2500;
+    } else if (150 <= usedMinutes < 300) {
+        unitPrice = 2000;
+    } else {
+        unitPrice = 1500;
+    }
+
+    usecharge = usedMinutes * unitPrice;
+    alert("bạn cần thanh toán:" + usecharge + " VND");
+
+</script>
+</body>
+</html>

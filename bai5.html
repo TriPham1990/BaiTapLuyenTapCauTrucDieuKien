@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Luyện tập cấu trúc điều kiện 01</title>
+</head>
+<body>
+<script>
+    let poin1 = parseInt(prompt('Nhập điểm bài kiểm tra:'));
+    let poin2 = parseInt(prompt('Nhập điểm thi giữa kỳ:'));
+    let poin3 = parseInt(prompt('Nhập điểm thi cuối kỳ'));
+    let mediumPoin = (poin1 + poin2 + poin3) / 3;
+
+    if(mediumPoin>=8){
+        alert('Học sinh giỏi.');
+    }else if(5<mediumPoin<8){
+        alert('Học sinh khá.');
+    }else if(mediumPoin===5){
+        alert('Học sinh trung bình.');
+    }else{
+        alert('Học sinh yếu');
+    }
+</script>
+</body>
+</html>
