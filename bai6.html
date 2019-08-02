@@ -11,7 +11,7 @@
 
     if (sales >= 200000000) {
         commission = "10%";
-    } else if (100000000 <= sales < 200000000) {
+    } else if (sales < 200000000 && sales > 100000000) {
         commission = "7%";
     } else {
         commission = "3%";

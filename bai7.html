@@ -12,9 +12,9 @@
 
     if (usedMinutes >= 500) {
         unitPrice = 3000;
-    } else if (300 <= usedMinutes < 500) {
+    } else if (usedMinutes < 500 && usedMinutes >= 300) {
         unitPrice = 2500;
-    } else if (150 <= usedMinutes < 300) {
+    } else if (usedMinutes < 300 && usedMinutes >= 150) {
         unitPrice = 2000;
     } else {
         unitPrice = 1500;

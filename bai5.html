@@ -11,13 +11,13 @@
     let poin3 = parseInt(prompt('Nhập điểm thi cuối kỳ'));
     let mediumPoin = (poin1 + poin2 + poin3) / 3;
 
-    if(mediumPoin>=8){
+    if (mediumPoin >= 8) {
         alert('Học sinh giỏi.');
-    }else if(5<mediumPoin<8){
+    } else if (mediumPoin < 8 && mediumPoin > 5) {
         alert('Học sinh khá.');
-    }else if(mediumPoin===5){
+    } else if (mediumPoin === 5) {
         alert('Học sinh trung bình.');
-    }else{
+    } else {
         alert('Học sinh yếu');
     }
 </script>
